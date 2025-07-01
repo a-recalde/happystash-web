@@ -32,11 +32,8 @@ const Footer = () => {
           </div>
           
           <div className="footer-section">
-            <h3>Connect</h3>
-            <div className="social-links">
-              <a href="https://twitter.com/happystashapp" target="_blank" rel="noopener noreferrer">Twitter</a>
-              <a href="https://instagram.com/happystashapp" target="_blank" rel="noopener noreferrer">Instagram</a>
-            </div>
+            <h3>Contact</h3>
+            <p>Email: <a href="mailto:support@happystash.app">support@happystash.app</a></p>
           </div>
         </div>
         
