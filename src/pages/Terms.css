@@ -1,79 +1,64 @@
 .terms-page {
-  color: #333;
-  padding: 3rem 0;
-  background-color: #f9f9f9;
-  min-height: 80vh;
-}
-
-.terms-page .container {
+  padding: 20px;
   max-width: 800px;
   margin: 0 auto;
-  padding: 2rem;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  display: block;
+  clear: both;
+  position: relative;
 }
 
 .terms-page h1 {
-  margin-bottom: 0.5rem;
-  color: #2c3e50;
-  font-size: 2.2rem;
   text-align: center;
+  margin-bottom: 10px;
+  color: #2c3e50;
+  display: block;
+  clear: both;
 }
 
-.last-updated {
-  color: #7f8c8d;
+.terms-page .last-updated {
+  text-align: center;
+  color: #777;
+  margin-bottom: 30px;
   font-style: italic;
-  margin-bottom: 2rem;
-  text-align: center;
+  display: block;
+  clear: both;
 }
 
-.terms-section {
-  margin-bottom: 2.5rem;
-  padding-bottom: 1rem;
+.terms-page h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #3498db;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+  display: block;
+  clear: both;
 }
 
-.terms-section h2 {
-  color: #4a90e2;
-  margin-bottom: 1rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid #ecf0f1;
-  font-size: 1.5rem;
+.terms-page p {
+  margin-bottom: 15px;
+  display: block;
+  clear: both;
 }
 
-.terms-section h3 {
-  margin: 1.5rem 0 0.75rem;
-  color: #2c3e50;
+.terms-page ul {
+  margin-bottom: 20px;
+  padding-left: 20px;
+  display: block;
+  clear: both;
 }
 
-.terms-section p {
-  margin-bottom: 1rem;
-  line-height: 1.7;
-  color: #444;
+.terms-page li {
+  margin-bottom: 10px;
+  display: list-item;
+  clear: both;
 }
 
-.terms-section ul {
-  margin: 1rem 0;
-  padding-left: 2rem;
-}
-
-.terms-section li {
+/* Fix bullet point formatting */
+.terms-page p br {
   margin-bottom: 0.5rem;
-  line-height: 1.7;
-  color: #444;
-}
-
-.contact-info {
-  font-weight: 600;
-}
-
-/* Bullet point styling */
-.terms-section p br {
-  display: none;
-}
-
-.terms-section p {
-  white-space: pre-line;
 }
 
 @media (max-width: 768px) {
@@ -81,7 +66,7 @@
     padding: 1rem 0;
   }
   
-  .terms-page .container {
+  .terms-page {
     padding: 1.5rem;
     margin: 0 1rem;
   }
