@@ -1,0 +1,164 @@
+.download-page .hero {
+  background: linear-gradient(135deg, #4a90e2 0%, #7f8ff4 100%);
+  color: white;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.download-page .hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.download-page .hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  opacity: 0.9;
+}
+
+.download-options {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 4rem 0;
+}
+
+.download-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+  text-align: center;
+  flex: 1;
+  max-width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.download-card:hover {
+  transform: translateY(-5px);
+}
+
+.download-icon {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: #4a90e2;
+}
+
+.download-card h2 {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.download-card p {
+  color: #7f8c8d;
+  margin-bottom: 1.5rem;
+}
+
+.download-button {
+  display: inline-block;
+  background-color: #4a90e2;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #3a7bc8;
+}
+
+.qr-section {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.qr-section h2 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.qr-section p {
+  color: #7f8c8d;
+  margin-bottom: 2rem;
+}
+
+.qr-placeholder {
+  width: 200px;
+  height: 200px;
+  background-color: #f0f0f0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #7f8c8d;
+  font-weight: bold;
+}
+
+.requirements-section {
+  margin: 4rem 0;
+}
+
+.requirements-section h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+}
+
+.requirements-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.requirement-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+  flex: 1;
+  max-width: 400px;
+}
+
+.requirement-card h3 {
+  color: #4a90e2;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+.requirement-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.requirement-card li {
+  padding: 0.5rem 0;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.requirement-card li:before {
+  content: "✓";
+  color: #4a90e2;
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .download-options,
+  .requirements-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .download-card,
+  .requirement-card {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+  }
+}
