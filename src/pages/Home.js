@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import TestimonialSlider from '../components/testimonials/TestimonialSlider';
 import './Home.css';
 
 const Home = () => {
@@ -11,7 +12,7 @@ const Home = () => {
             <h1>Celebrate Life's Special Moments</h1>
             <p>HappyStash helps you capture, share, and celebrate your precious memories with the people who matter most.</p>
             <div className="cta-buttons">
-              <Link to="/download" className="btn btn-primary">Download Now</Link>
+              <a href="https://apps.apple.com" className="btn btn-primary">Download Now</a>
               <Link to="/features" className="btn btn-secondary">Learn More</Link>
             </div>
           </div>
@@ -53,20 +54,16 @@ const Home = () => {
       <section className="testimonials">
         <div className="container">
           <h2>What Our Users Say</h2>
-          <div className="testimonial-slider">
-            <div className="testimonial">
-              <p>"HappyStash has completely changed how I share special moments with my family. It's secure, easy to use, and fun!"</p>
-              <div className="testimonial-author">- Sarah K.</div>
-            </div>
-          </div>
+          <TestimonialSlider />
         </div>
       </section>
 
       <section className="download-cta">
         <div className="container">
-          <h2>Ready to start creating memories?</h2>
-          <p>Download HappyStash today and begin your journey of capturing life's special moments.</p>
-          <Link to="/download" className="btn btn-primary">Get HappyStash</Link>
+          <div className="cta-flex">
+            <h2>Ready to start creating memories?</h2>
+            <a href="https://apps.apple.com" className="btn btn-primary">Download Now</a>
+          </div>
         </div>
       </section>
     </div>

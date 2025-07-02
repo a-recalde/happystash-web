@@ -8,7 +8,7 @@ import Layout from './components/layout/Layout';
 // Pages
 import Home from './pages/Home';
 import Features from './pages/Features';
-import Download from './pages/Download';
+
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 
@@ -27,11 +27,7 @@ function App() {
               <Features />
             </Layout>
           } />
-          <Route path="/download" element={
-            <Layout>
-              <Download />
-            </Layout>
-          } />
+
           <Route path="/privacy" element={
             <Layout>
               <Privacy />

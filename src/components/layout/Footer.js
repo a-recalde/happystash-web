@@ -19,7 +19,6 @@ const Footer = () => {
             <ul>
               <li><Link to="/">Home</Link></li>
               <li><Link to="/features">Features</Link></li>
-              <li><Link to="/download">Download</Link></li>
             </ul>
           </div>
           
@@ -35,10 +34,10 @@ const Footer = () => {
             <h3>Contact</h3>
             <p>Email: <a href="mailto:support@happystash.app">support@happystash.app</a></p>
           </div>
-        </div>
-        
-        <div className="footer-bottom">
-          <p>&copy; {currentYear} HappyStash. All rights reserved.</p>
+
+          <div className="footer-section copyright-section">
+            <p>&copy; {currentYear} HappyStash. All rights reserved.</p>
+          </div>
         </div>
       </div>
     </footer>
