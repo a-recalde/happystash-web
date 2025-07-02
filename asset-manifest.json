@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.f3e45ce3.css",
-    "main.js": "/static/js/main.21aebe74.js",
+    "main.js": "/static/js/main.0b1136b6.js",
     "static/js/453.372e8d15.chunk.js": "/static/js/453.372e8d15.chunk.js",
-    "static/media/happy_home.png": "/static/media/happy_home.f4af553b6ea915dd7067.png",
+    "static/media/happy_home.png": "/static/media/happy_home.222b03639881a69e691f.png",
     "index.html": "/index.html",
     "main.f3e45ce3.css.map": "/static/css/main.f3e45ce3.css.map",
-    "main.21aebe74.js.map": "/static/js/main.21aebe74.js.map",
+    "main.0b1136b6.js.map": "/static/js/main.0b1136b6.js.map",
     "453.372e8d15.chunk.js.map": "/static/js/453.372e8d15.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f3e45ce3.css",
-    "static/js/main.21aebe74.js"
+    "static/js/main.0b1136b6.js"
   ]
 }
