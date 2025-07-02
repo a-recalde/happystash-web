@@ -17,8 +17,8 @@ const Home = () => {
             </div>
           </div>
           <div className="hero-image">
-            {/* App screenshot or illustration will go here */}
-            <div className="placeholder-image">App Screenshot</div>
+            {/* App screenshot */}
+            <img src={require('../assets/images/happy_home.png')} alt="HappyStash App" className="placeholder-image" />
           </div>
         </div>
       </section>
