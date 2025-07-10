@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "HappyStash",
+  "name": "HappyStash - Secure Memory Sharing",
   "icons": [
     {
       "src": "favicon.ico",
