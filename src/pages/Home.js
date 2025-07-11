@@ -12,7 +12,7 @@ const Home = () => {
             <h1>Celebrate Life's Special Moments</h1>
             <p>HappyStash helps you capture, share, and celebrate your precious memories with the people who matter most.</p>
             <div className="cta-buttons">
-              <a href="https://apps.apple.com" className="btn btn-primary">Download Now</a>
+              <a href="https://apps.apple.com/app/id6747241457" className="btn btn-primary">Download Now</a>
               <Link to="/features" className="btn btn-secondary">Learn More</Link>
             </div>
           </div>
@@ -62,7 +62,7 @@ const Home = () => {
         <div className="container">
           <div className="cta-flex">
             <h2>Ready to start creating memories?</h2>
-            <a href="https://apps.apple.com" className="btn btn-primary">Download Now</a>
+            <a href="https://apps.apple.com/app/id6747241457" className="btn btn-primary">Download Now</a>
           </div>
         </div>
       </section>
